@@ -1,0 +1,95 @@
+body {
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 1200px;
+	box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+
+
+}
+#intro {
+	width: 100%;
+}
+.navbar {
+	width: 100%;
+	background-color: #003E73;
+	text-align: center;
+	z-index: 1;
+
+}
+.fixed {
+	width: 100%;
+	background-color: #003E73;
+	text-align: center;
+	position: fixed;
+	max-width: 1200px;
+	top: 0;
+}
+#navtext {
+	padding: 1em;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+#intro_pic {
+	width: 100%;
+}
+#about {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	margin-top: 10%;
+	margin-bottom: 120px;
+	font-size: 30px;
+
+}
+#about_text {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#vendors {
+	width: 100%;
+	margin-top: 50px;
+	background-color: #003E73;
+
+}
+#vendor_pic {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+#pics {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	font-family: 'Amatic SC', cursive;
+	box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+
+}
+a {
+	color: white;
+	text-decoration: none;
+	margin-right: 1em;
+}
+a:hover {
+	color: #82B643;
+}
+p {
+	margin: 0px;
+}
+.decor {
+	width: 98%;
+}
+.apples {
+	width: 50%;
+}
+
+@media (max-width: 1000px) {
+	#navtext {
+	  font-size: 1em;
+	}
+
+
+}
